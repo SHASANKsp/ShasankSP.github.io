@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio showcasing bioinformatics, data science, and AI/ML expertise">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,14 +19,16 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <a href="docs/SHASANKA-SHEKHAR-PADHI_DS.pdf" download class="cv-download-button">
+            <i class="fas fa-download"></i> Download CV
+        </a>
     </header>
     <main>
         <section id="about" class="section">
             <h1>Welcome to My Portfolio</h1>
             <p>I am a bioinformatics / data science professional with around 3 years of experience, specialized in building scalable and robust AI/ML models, bioinformatics pipelines, and data analysis tools, focusing on advancing drug discovery, precision medicine, target identification, clinical development and therapeutic research through cross-functional collaboration and data-driven solutions.</p>
-
         </section>
-        <section id="skills">
+        <section id="skills" class="section">
             <h2>Skills</h2>
             <div class="skills-container">
                 <div class="skill-block">Machine Learning</div>
@@ -43,9 +46,8 @@
             </div>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="section">
             <div class="skills-container">
-                
                 <div class="skill-block">WGS</div>
                 <div class="skill-block">RNA Seq</div>
                 <div class="skill-block">Single Cell Seq</div>
@@ -55,14 +57,13 @@
                 <div class="skill-block">Nextflow</div>
                 <div class="skill-block">Docker</div>
                 <div class="skill-block">RESTful API</div>
-                
             </div>
         </section>
         <section id="Work experience" class="section">
             <h2>Work experience</h2>
             <div class="projects-container">
                 <div class="project-block">
-                    <h3>Automated QSPR model building  for property prediction</h3>
+                    <h3>Automated QSPR model building for property prediction</h3>
                     <p>Developed an automated ML pipeline to build Quantitative Structure-Property Relationship (QSPR) model for drug property prediction.</p>
                 </div>
 
@@ -168,7 +169,6 @@
                     <p><a href="https://github.com/SHASANKsp/Image-classification.git" target="_blank">View on GitHub</a></p>
                 </div>
 
-
                 <div class="project-block">
                     <h3>Natural Language processing</h3>
                     <ul style="color: black; text-align: justify;">
@@ -214,12 +214,38 @@
                     </ul>
                     <p><a href="https://github.com/SHASANKsp/Protein_Classification_Models.git" target="_blank">View on GitHub</a></p>
                 </div>
+            </div>
+        </section>
 
+        <!-- NEW Medium Articles Section -->
+        <section id="articles" class="section">
+            <h2>My Articles</h2>
+            <div class="articles-container">
+                <div class="article-card">
+                    <img src="LLM_RAG.png">
+                    <div class="article-content">
+                        <h3>Biomedical Research Assistant</h3>
+                        <p class="article-excerpt">Biomedical Research Assistant built using RAG, LangChain, and LLaMA3</p>
+                        <a href="https://medium.com/@shasankashekharpadhi/biomedical-research-assistant-built-using-rag-langchain-and-llama3-e7f19427e636" target="_blank" class="read-article">
+                            Read on Medium <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="article-card">
+                    <img src="TKG.png">
+                    <div class="article-content">
+                        <h3>Temporal Knowledge Graphs</h3>
+                        <p class="article-excerpt">Time Aware Intelligence in Healthcare</p>
+                        <a href="https://medium.com/@shasankashekharpadhi/temporal-knowledge-graphs-time-aware-intelligence-in-healthcare-3859cd737016" target="_blank" class="read-article">
+                            Read on Medium <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
              
-
-        <section id="contact">
+        <section id="contact" class="section">
             <h2>Contact</h2>
             <div class="contacts-container">
                 <div class="contact-block">
@@ -236,10 +262,9 @@
                 </div>
             </div>
         </section>
-        
     </main>
     <footer>
-        
+        <p>© 2024 Shasanka Shekhar Padhi. All rights reserved.</p>
     </footer>
 </body>
 </html>
