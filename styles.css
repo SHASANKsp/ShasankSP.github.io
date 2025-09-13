@@ -362,6 +362,38 @@ footer {
     }
 }
 
+
+.articles-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.article-row {
+    display: table-row;
+}
+
+.article-cell {
+    display: table-cell;
+    width: 50%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .articles-table, 
+    .article-row, 
+    .article-cell {
+        display: block;
+        width: 100%;
+    }
+    
+    .article-cell {
+        padding: 10px 0;
+    }
+}
+
 @media (max-width: 480px) {
     nav ul {
         gap: 1rem;
